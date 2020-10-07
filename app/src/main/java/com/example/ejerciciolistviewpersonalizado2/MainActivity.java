@@ -25,9 +25,9 @@ public class MainActivity extends AppCompatActivity {
         // creo el arraylist
         contactos= new ArrayList<Agenda>();
         //  meto datos en el arraylist
-        contactos.add(new Agenda("jesus","616616616","Miguel de benavides 6",R.drawable.ic_contact_phone_black_24dp));
-        contactos.add(new Agenda("Marysol","620620620","la misma case nº 6",R.drawable.ic_contact_phone_black_24dp));
-        contactos.add(new Agenda("Rodrigo","123456789","la calle nº 6",R.drawable.ic_contact_phone_black_24dp));
+        contactos.add(new Agenda("jesus","616616616","Miguel de benavides",R.drawable.ic_contact_phone_black24dp));
+        contactos.add(new Agenda("Marysol","620620620","la misma case",R.drawable.ic_contact_phone_black_24dp));
+        contactos.add(new Agenda("Rodrigo","123456789","la calle ",R.drawable.ic_contact_phone_black_24dp));
 
         contactos.add(new Agenda("Pedro","7894563333","la palencia",R.drawable.ic_contact_phone_black_24dp));
 
